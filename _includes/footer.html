@@ -1,17 +1,61 @@
 <footer>
-    <div class="sticky-bottom">
-        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,80 0,80 C 215.2,77.19999999999999 430.4,74.39999999999999 566,78 C 701.6,81.60000000000001 757.6,91.6 890,93 C 1022.4,94.4 1231.2,87.2 1440,80 C 1440,80 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#7bdcb5" fill-opacity="0.265" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><path d="M 0,400 C 0,400 0,160 0,160 C 107.46666666666664,167.60000000000002 214.93333333333328,175.20000000000002 392,171 C 569.0666666666667,166.79999999999998 815.7333333333333,150.79999999999998 1002,147 C 1188.2666666666667,143.20000000000002 1314.1333333333332,151.60000000000002 1440,160 C 1440,160 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#7bdcb5" fill-opacity="0.4" class="transition-all duration-300 ease-in-out delay-150 path-1"></path><path d="M 0,400 C 0,400 0,240 0,240 C 196.80000000000007,225.06666666666666 393.60000000000014,210.13333333333335 567,217 C 740.3999999999999,223.86666666666665 890.3999999999999,252.5333333333333 1032,260 C 1173.6000000000001,267.4666666666667 1306.8000000000002,253.73333333333335 1440,240 C 1440,240 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#7bdcb5" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-2"></path><path d="M 0,400 C 0,400 0,320 0,320 C 159.7333333333333,332.5333333333333 319.4666666666666,345.06666666666666 485,343 C 650.5333333333334,340.93333333333334 821.8666666666666,324.26666666666665 982,318 C 1142.1333333333334,311.73333333333335 1291.0666666666666,315.8666666666667 1440,320 C 1440,320 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill="#7bdcb5" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-3"></path></svg>
-        <div class="sub-footer">
-            {% for social in site.data.socials %}
+  <div class="sticky-bottom">
+    <svg
+      width="100%"
+      height="100%"
+      id="svg"
+      viewBox="0 0 1440 400"
+      xmlns="http://www.w3.org/2000/svg"
+      class="transition duration-300 ease-in-out delay-150"
+    >
+      <path
+        d="M 0,400 C 0,400 0,80 0,80 C 215.2,77.19999999999999 430.4,74.39999999999999 566,78 C 701.6,81.60000000000001 757.6,91.6 890,93 C 1022.4,94.4 1231.2,87.2 1440,80 C 1440,80 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#7bdcb5"
+        fill-opacity="0.265"
+        class="transition-all duration-300 ease-in-out delay-150 path-0"
+      ></path>
+      <path
+        d="M 0,400 C 0,400 0,160 0,160 C 107.46666666666664,167.60000000000002 214.93333333333328,175.20000000000002 392,171 C 569.0666666666667,166.79999999999998 815.7333333333333,150.79999999999998 1002,147 C 1188.2666666666667,143.20000000000002 1314.1333333333332,151.60000000000002 1440,160 C 1440,160 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#7bdcb5"
+        fill-opacity="0.4"
+        class="transition-all duration-300 ease-in-out delay-150 path-1"
+      ></path>
+      <path
+        d="M 0,400 C 0,400 0,240 0,240 C 196.80000000000007,225.06666666666666 393.60000000000014,210.13333333333335 567,217 C 740.3999999999999,223.86666666666665 890.3999999999999,252.5333333333333 1032,260 C 1173.6000000000001,267.4666666666667 1306.8000000000002,253.73333333333335 1440,240 C 1440,240 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#7bdcb5"
+        fill-opacity="0.53"
+        class="transition-all duration-300 ease-in-out delay-150 path-2"
+      ></path>
+      <path
+        d="M 0,400 C 0,400 0,320 0,320 C 159.7333333333333,332.5333333333333 319.4666666666666,345.06666666666666 485,343 C 650.5333333333334,340.93333333333334 821.8666666666666,324.26666666666665 982,318 C 1142.1333333333334,311.73333333333335 1291.0666666666666,315.8666666666667 1440,320 C 1440,320 1440,400 1440,400 Z"
+        stroke="none"
+        stroke-width="0"
+        fill="#7bdcb5"
+        fill-opacity="1"
+        class="transition-all duration-300 ease-in-out delay-150 path-3"
+      ></path>
+    </svg>
+    <div class="sub-footer">
+      {% for social in site.data.socials %}
 
-            <div class="social-container">
-                <a class="social-link" href="{{ social.link }}" rel="noopener" target="_blank">
-                    <i class="social-icon {{ social.icon }}"></i>
-                </a>
-            </div>
-                
-            {% endfor %}
-        </div>
+      <div class="social-container">
+        <a
+          class="social-link"
+          href="{{ social.link }}"
+          rel="noopener"
+          target="_blank"
+        >
+          <i class="social-icon {{ social.icon }}"></i>
+        </a>
+      </div>
+
+      {% endfor %}
     </div>
-
+  </div>
 </footer>

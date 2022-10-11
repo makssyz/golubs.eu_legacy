@@ -4,4 +4,3 @@ layout: post
 teaser: quantum-vr.png
 tags: Quantum VR
 ---
-
