@@ -1,0 +1,22 @@
+{
+  "name": "golubs.eu",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makssyz/golubs.eu.git"
+  },
+  "author": "Makss Golubs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makssyz/golubs.eu/issues"
+  },
+  "homepage": "https://github.com/makssyz/golubs.eu#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
