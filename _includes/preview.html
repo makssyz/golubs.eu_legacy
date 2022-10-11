@@ -1,4 +1,4 @@
-
+<!-- 
 <div class="col">
 	<div class="card h-100 border-primary">
 		
@@ -8,5 +8,13 @@
 			<a href="{{ post.url }}" class="preview-overlay a-link stretched-link preview-img" title="{{ post.title }}"></a>
 
 
+	</div>
+</div> -->
+
+<div class="preview">
+	<img class="preview-image" src="assets/img/teaser/{{ post.teaser }}" alt="Post preview image">
+	<div class="preview-overlay">
+		<div class="preview-title">{{ post.title }}</div>
+		<p class="preview-description">This is a sample description pls ignore.</p>
 	</div>
 </div>
