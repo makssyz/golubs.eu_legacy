@@ -12,13 +12,17 @@
 </div> -->
 
 <div class="preview">
-  <img
-    class="preview-image"
-    src="assets/img/teaser/{{ post.teaser }}"
-    alt="Post preview image"
-  />
-  <div class="preview-overlay">
-    <div class="preview-title">{{ post.title }}</div>
-    <p class="preview-description">This is a sample description pls ignore.</p>
-  </div>
+  <a href="{{ post.url }}">
+    <img
+      class="preview-image img-fluid img-thumbnail"
+      src="assets/img/teaser/{{ post.teaser }}"
+      alt="Post preview image"
+    />
+    <div class="preview-overlay preview-overlay-blur overflow-hidden">
+      <h3 class="preview-title">{{ post.title }}</h3>
+      <p class="preview-description">
+        This is a sample description pls ignore.
+      </p>
+    </div>
+  </a>
 </div>

@@ -27,6 +27,7 @@ about: >-
   Building software with advanced technologies at day,
   training machine learning algorithms and constructing
   electronics at night. Always happy to chat!
+  ATTENTION: This Website is a work in progress.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
